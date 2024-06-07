@@ -56,7 +56,7 @@ const TicTacToe = () => {
       setTimeout(() => {
         alert(winner === "draw" ? "It's a draw!" : `Congratulations! Player ${winner} wins!`);
         resetGame();
-      }, 1000);
+      }, 100);
     }
   }, [squares]);
 
