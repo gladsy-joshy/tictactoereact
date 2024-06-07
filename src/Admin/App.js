@@ -4,7 +4,7 @@ import  TicTacToe from './TicTacToe'
 const App = () => {
     return (
       <Routes>
-         <Route path='/TicTacToe' element={<TicTacToe/>}/>
+         <Route path='/' element={<TicTacToe/>}/>
               
     </Routes>
   )
